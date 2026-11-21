@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://radhikasweets.in/sitemap.xml

@@ -1,0 +1,16 @@
+name = "radhika-sweets-api"
+main = "worker.js"
+compatibility_date = "2026-11-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "radhika_sweets_db"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+
+[vars]
+ALLOWED_ORIGIN = "https://radhikasweets.in"
+ADMIN_USERNAME = "admin"
+
+# Set secrets via CLI (never commit secrets to git):
+# npx wrangler secret put JWT_SECRET
+# npx wrangler secret put ADMIN_PASSWORD_HASH
